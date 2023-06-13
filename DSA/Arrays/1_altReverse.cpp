@@ -1,9 +1,11 @@
 #include<iostream>
-#include<math.h>
 #include <vector>
 using namespace std;
 
-//Function that takes an array input and returns its pointer.
+//Takes an user input vector and reverses each alternate element if possible.
+//Time Complexity : O(N^2)
+//Space Complexity : O(N)
+
 int* createArray(int size){
 
     int* arr = new int[size];
@@ -14,7 +16,7 @@ int* createArray(int size){
         cin >> arr[i];
     }
 
-    return arr; //Returning pointer of the array.
+    return arr; 
 }
 
 void printArray(int arr[], int size){
