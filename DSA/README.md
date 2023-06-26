@@ -21,3 +21,10 @@
 
 #### Space Complexity
 - It is the function of space taken by a program/algorithm to work.
+
+#### Bitwise
+- ~ (bitwise not) takes one's complement of the number.
+- ^ (XOR) results in 1 only if both the bits are different.
+- <b>Signed</b> integers range from -2^31 to 2^32 - 1.
+- Left Shift: <b>\<\<</b> shifts the operand to the left in binary. Essentially multiplying.
+- Right Shift: <b>\>\></b> shifts the operand to the right in binary. Essentially dividing.
