@@ -34,3 +34,8 @@
 - Consider the array [1, 5(1st), 7, 10, 5(2nd)] which has two 5's.
 - Stable sorting here will place the 1st '5' before the second one while Unstable may or may not do that.
 - Stable: [1, 5(1), 5(2), 7, 10], Unstable: [1, 5(2), 5(1), 7, 10]
+
+#### In-place vs Out-place Sorting
+- In-place sorting carries out the task without additional memory requirements or little (constant) space requirements.
+- Out-place sorting needs additional memory requirements dependant on the inputs memory size.
+- In-place: Bubble Sort, Out-place: Merge Sort.

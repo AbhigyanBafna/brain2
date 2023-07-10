@@ -5,7 +5,7 @@ using namespace std;
 //Space Complexity = O(1)
 //Best Case = O(N^2)
 //Worst Case = O(N^2)
-//Unstable Algo.
+//Unstable, In-place Algo.
 
 void display(int arr[], int size){
 
@@ -15,6 +15,14 @@ void display(int arr[], int size){
 
     cout << endl;
     
+}
+
+void swapEle(int arr[], int first, int second){
+
+    int temp = arr[first];
+    arr[first] = arr[second];
+    arr[second] = temp;
+
 }
 
 int main(){
@@ -35,9 +43,7 @@ int main(){
 
         }
 
-        int temp = arr[i];
-        arr[i] = arr[minIndex];
-        arr[minIndex] = temp;
+        swapEle(arr, i, minIndex);
 
     }
 
